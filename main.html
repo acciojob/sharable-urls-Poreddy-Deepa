@@ -2,7 +2,33 @@
 <html>
   <body>
     <script type="text/javascript" src="./script.js">
+		// const name=document.getElementById("name").value
+		// const year=document.getElementById("year").value
+		// const Url= https://localhost:8080/
+		function myFunction(){
+			document.getElementById("myForm").submit();
+		}
+
+
 </script>
+  <h3 id="url"> https://localhost:8080/</h3>
+<!-- 	  <label for="name">Name:</label> -->
+	  <form id="myForm">
+	 Name: <input type="text" name="name"><br><br>
+	Year: <input type="number" name="year"><br><br>
+	   <input type="button" onClick="myFunction()" name="Submit form">
+
+
+<!-- 	  	  <label for="name">Year:</label>
+ -->
+<!-- 	  <select  id="year"  name="year">
+		  
+		  <option value="2023">2023</option>
+		  <option value="2022">2022</option>
+		  <option value="2021">2021</option>
+		  <option value="2020">2020</option>
+	  </select> -->
+	
   </body>
 
 </html>
